@@ -1,0 +1,55 @@
+Symfony
+ Search on Symfony website    OK
+Exception detected! 
+An exception occurred while executing 'SELECT t0.id AS id1, t0.name AS name2 FROM producto t0':
+
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'spabloTarea.producto' doesn't exist
+500 Internal Server Error - TableNotFoundException
+2 linked Exceptions: PDOException » PDOException »
+
+[3/3] TableNotFoundException: An exception occurred while executing 'SELECT t0.id AS id1, t0.name AS name2 FROM producto t0':
+
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'spabloTarea.producto' doesn't exist   +
+[2/3] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'spabloTarea.producto' doesn't exist   +
+[1/3] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'spabloTarea.producto' doesn't exist   +
+Logs   - 1 error
+INFO - Matched route "producto_index". 
+INFO - Populated the TokenStorage with an anonymous Token. 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DumpListener::configure". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest". 
+DEBUG - Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController". 
+DEBUG - SELECT t0.id AS id1, t0.name AS name2 FROM producto t0 
+CRITICAL - Uncaught PHP Exception Doctrine\DBAL\Exception\TableNotFoundException: "An exception occurred while executing 'SELECT t0.id AS id1, t0.name AS name2 FROM producto t0': SQLSTATE[42S02]: Base table or view not found: 1146 Table 'spabloTarea.producto' doesn't exist" at /home/pulpo/symfonyProjects/tareita/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php line 53 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DumpListener::configure". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest". 
+DEBUG - Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest". 
+DEBUG - Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController". 
+DEBUG - Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController". 
+Stack Trace (Plain Text)   +
+
